@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import "button.scss";
+
+body {
+    margin: 0;
+    padding: 0;
+   
+}
+
+.header {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+     
+   
+    
+    &_nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      ol {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        gap: 10px;
+
+      a {
+        text-decoration: none;
+        color: black;
+
+        li {
+
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        border-bottom: 2px solid red; 
+        }
+      }
+
+      }
+    }
+}
+
+.information {
+
+    &_title {
+        text-align: center;
+        
+        h1 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 48px;
+        }
+    }
+
+    &_text {
+        text-align: center;
+        width: 211px;
+        margin: auto;
+       
+
+        p {
+        
+            span {
+                color: #D2483D;
+            }
+        }
+    }
+
+    &_button {
+
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        a {
+            @include buttonprimary();
+        }
+    }
+
+    &_logo {
+        width: 400px;
+        height: 400px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+
+        img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
