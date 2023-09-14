@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap");
 body {
   margin: 0;
   padding: 0;
@@ -20,6 +20,7 @@ body {
   flex-direction: row;
   list-style: none;
   gap: 10px;
+  padding: 0;
 }
 .header_nav ol a {
   text-decoration: none;
@@ -29,7 +30,7 @@ body {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-size: 20px;
-  border-bottom: 2px solid red;
+  border-bottom: 3px solid #D2483D;
 }
 
 .information_title {
@@ -75,4 +76,135 @@ body {
      object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+.adresse {
+  width: 89px;
+  height: 25px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.adresse_title p {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  border-bottom: 3px solid #D2483D;
+}
+
+.section-container {
+  margin-top: 50px;
+}
+
+.cards article {
+  margin-bottom: 50px;
+}
+.cards_img {
+  width: 256px;
+  height: 180px;
+  margin: auto;
+}
+.cards_img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.cards_title {
+  width: 256px;
+  height: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+}
+.cards_title p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  padding-top: 0;
+  margin: 0;
+}
+.cards_text1 {
+  width: 256px;
+  height: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+}
+.cards_text1 p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+}
+.cards_text2 {
+  width: 256px;
+  height: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+}
+.cards_text2 p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+}
+
+.redhighlight {
+  width: 100%;
+  height: 184px;
+  background-color: #D2483D;
+}
+.redhighlight_text p {
+  text-align: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  padding-top: 50px;
+}
+.redhighlight_button {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.redhighlight_button a {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+  background-color: black;
+  padding: 14px 54px;
+  text-decoration: none;
+}
+
+.expertise_title {
+  width: 200px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.expertise_title p {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+.expertise_text {
+  width: 256px;
+  height: 303px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.expertise_text p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 30px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
